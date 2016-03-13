@@ -1,0 +1,29 @@
+
+# include <iostream>
+using namespace std;
+
+int main()
+
+{
+    int avrg;
+    std::cout<< "Grade average\n";
+    cin>>avrg;
+    if (avrg >=90){
+        std::cout<< "A\n";
+    }
+    else if (avrg >= 80){
+        std::cout << "B\n";
+        
+    }
+    else if (avrg >= 70){
+        std::cout << "C\n";
+        
+    }
+    else if (avrg >= 60){
+        std::cout << "D\n";
+    }
+    else if (avrg < 60){
+        std::cout<<"F\n";
+    }
+    return 0;
+}
