@@ -1,0 +1,26 @@
+# IF STATEMENT
+
+#include <iostream>
+
+int main()
+{
+    int age;
+    // insert code here...
+    std::cin >> age;
+    std::cout << "Hello, World!\n";
+    if (age >= 18 && age <= 66) {
+        std::cout << "Yes, vote next election" <<"\n";
+    }
+    else if (age == 17) {
+        std::cout << "One more year to vote\n";
+    }
+    else if (age < 17){
+        std::cout << "Don't even try to vote\n";
+        
+    }
+    else if (age >= 67){
+        std::cout << "Senior citizen vote\n";
+    }
+
+    return 0;
+}
