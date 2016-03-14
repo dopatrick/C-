@@ -1,0 +1,33 @@
+#BASIC IF STATEMENT
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num = 10, num3 = 36, num2 = 5;
+    int date, month;
+    char september;
+    num3++;
+    
+    std::cout << num << " + " << num2 << " = " << num+num2 << "\n";
+    
+    std::cout << num3 <<endl;
+    std::cout << "ENTER THE DATE\n";
+    std::cin >> date;
+    std::cin >> month;
+    
+    if (date >= 1) {
+        
+        if (date <= 31) {
+            
+            std::cout << "MARK DATE VALID\n";
+            
+        } if (date == 19 && month != september) {
+            
+            std::cout << "DATE AND MONTH ARE SPECIALS\n";
+        }
+    }
+    
+    return 0;
+}
