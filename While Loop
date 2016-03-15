@@ -1,0 +1,17 @@
+// WHILE LOOP EXERCISES
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int cnt = 1;
+    
+    while (cnt <= 15){
+        cout << "SAY MY NAME 15 TIMES\n";
+        cnt = cnt + 1;
+    }
+    
+    return 0;
+}
+
