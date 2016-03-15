@@ -1,0 +1,24 @@
+//Parameter Function Return Value
+
+
+#include <iostream>
+using namespace std;
+
+int disp(int, int);
+int main(){
+    int result;
+     result = disp(20, 2);
+    cout << "Value " << result <<endl;
+
+    
+    return 0;
+}
+
+int disp(int x, int y){
+    cout << x <<endl;
+    cout << y <<endl;
+    cout << x * y <<endl;
+    
+    return x / y;
+}
+
