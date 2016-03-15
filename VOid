@@ -1,0 +1,28 @@
+// void Function
+
+#include <iostream>
+using namespace std;
+
+void imd(){
+    cout << "this is Genius\n";
+}
+
+int main(){
+    
+    imd();
+    imd();
+    imd();
+    imd();
+    
+    return 0;
+}
+
+/* you also use 
+ 
+ void imd()
+ {
+ cout << "This is Genius\n"
+ 
+ }
+ 
+*/
