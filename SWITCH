@@ -1,0 +1,51 @@
+
+// SWITCH STATEMENT
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char input;
+    cout << "Student grade for Final exam\n";
+    cin >> input;
+    
+    switch( input ){
+        case 'A': {
+        case 'a':{
+             cout << "GREAT \n";
+            break;
+            }
+            
+        }
+        case 'B':{
+        case 'b':{
+            cout << "Good\n";
+                break;
+        }
+            
+            }
+            
+        case 'C':{
+        case 'c':{
+            cout << "Standard\n";
+            break;
+            
+        }
+            
+        }
+        case 'D':{
+            case 'd':{
+            cout << "not so bad\n";
+            break;
+            }
+          
+        }
+            default:
+            break;
+    
+    
+    
+    }
+}
